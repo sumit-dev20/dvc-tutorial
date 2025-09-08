@@ -13,6 +13,10 @@ new_raw = {"Name": "Pepper", "Age": 40, "City": "California"}
 
 df.loc[len(df.index)] = new_raw
 
+new_raw_2 = {"Name": "Natasha", "Age": 30, "City": "Moscow"}
+
+df.loc[len(df.index)] = new_raw_2
+
 data_dir = "data"
 os.makedirs(data_dir, exist_ok=True)
 
